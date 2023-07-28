@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-function NumberSorter() {
+export const NumberSorter = () => {
   const [inputValue, setInputValue] = useState("");
   const [sortedNumbers, setSortedNumbers] = useState<number[]>([]);
   const [sortOrder, setSortOrder] = useState("asc");
@@ -79,6 +79,4 @@ function NumberSorter() {
       </header>
     </div>
   );
-}
-
-export default NumberSorter;
+};
