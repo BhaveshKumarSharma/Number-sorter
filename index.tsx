@@ -47,7 +47,7 @@ function NumberSorter() {
               className="border-0 rounded-lg p-2 w-full bg-muted text-muted-foreground"
               value={inputValue}
               onChange={handleInputChange}
-              placeholder="Enter numbers separated by comma"
+              placeholder="Enter numbers separated by comma eg: 1,12,43,23,1"
             />
           </div>
           <div className="flex-1">
